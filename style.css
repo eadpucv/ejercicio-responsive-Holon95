@@ -1,17 +1,40 @@
 .site-header {
   background: rgba( 255, 0, 0, 0.15 );
+  padding:17px;
 }
 .site-nav{
   background: rgba( 0, 255, 0, 0.15 );
+  margin-top: 20px;
 }
 .site-main {
   background: #ffc;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top:10px;
+  margin-top: 20px;
 }
 .hentry {
   border: 2px dashed black;
-  margin: 1rem;
+  margin: 0;
   padding: 1rem;
 }
 footer {
  background: rgba( 0, 0, 255, 0.15 ); 
+ padding: 10px;
+ margin-bottom:30px; 
+}
+ul{
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+li{
+  padding:10px;
+  display: inline-flex;
+  flex-grow: 1;
+  border: 2px dashed  rgba(164, 204, 149, 0.75);
+}
+.kun{
+  display: flex;
+  padding-bottom: 40px;
 }
